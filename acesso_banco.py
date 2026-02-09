@@ -28,7 +28,7 @@ def create_mysql_engine():
     password = _get_env("DB_PASSWORD")
     db_name = _get_env("DB_NAME")
 
-    # Usa pymysql como driver do MySQL
+    # Usa pymysql como driver do MySQLgit push origin main
     url = f"mysql+pymysql://{user}:{password}@{host}:{port}/{db_name}"
     return create_engine(url)
 
