@@ -1,1 +1,7 @@
+/.venv
+/_pycache_
 .env
+acesso_banco.py
+df_bancodados.py
+dados_banco.xlsx
+
